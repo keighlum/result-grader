@@ -9,6 +9,14 @@ function gradeResult() {
 			grade = 'A';
 		} else if (myResult > 80) {
 			grade = 'B' ;
+			} else if (myResult > 70) {
+			grade = 'B-' ;
+			} else if (myResult > 60) {
+			grade = 'C' ;
+			} else if (myResult > 50) {
+			grade = 'C-' ;
+			} else if (myResult > 40) {
+			grade = 'D' ;
 		} else {
 			grade = 'F'
 		}
